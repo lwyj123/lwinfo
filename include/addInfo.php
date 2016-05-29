@@ -19,7 +19,5 @@ $data = $database->insert(
         "InfoTime" => date('y-m-d h:i:s',time())
     ]
 );
-
-
 $resJson = json_encode($data[0]);
 echo $resJson;
